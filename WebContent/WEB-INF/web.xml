@@ -10,6 +10,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+
   <servlet>
     <servlet-name>userlogin</servlet-name>
     <servlet-class>controller.UserLoginServlet</servlet-class>
@@ -18,6 +19,7 @@
     <servlet-name>userlogin</servlet-name>
     <url-pattern>/servlet/userlogin</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>adminlogin</servlet-name>
     <servlet-class>controller.AdminLoginServlet</servlet-class>
@@ -26,6 +28,7 @@
     <servlet-name>adminlogin</servlet-name>
     <url-pattern>/servlet/adminlogin</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>register</servlet-name>
     <servlet-class>controller.RegisterServlet</servlet-class>
@@ -34,6 +37,7 @@
     <servlet-name>register</servlet-name>
     <url-pattern>/servlet/register</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>usermain</servlet-name>
     <servlet-class>controller.UserMainServlet</servlet-class>
@@ -42,6 +46,7 @@
     <servlet-name>usermain</servlet-name>
     <url-pattern>/servlet/usermain</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>submitanswer</servlet-name>
     <servlet-class>controller.SubmitAnswerServlet</servlet-class>
@@ -50,6 +55,7 @@
     <servlet-name>submitanswer</servlet-name>
     <url-pattern>/servlet/submitanswer</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>logout</servlet-name>
     <servlet-class>controller.LogoutServlet</servlet-class>
@@ -58,6 +64,7 @@
     <servlet-name>logout</servlet-name>
     <url-pattern>/servlet/logout</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>adminmain</servlet-name>
     <servlet-class>controller.AdminMainServlet</servlet-class>
@@ -66,6 +73,7 @@
     <servlet-name>adminmain</servlet-name>
     <url-pattern>/servlet/adminmain</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>adminpaperview</servlet-name>
     <servlet-class>controller.AdminPaperViewServlet</servlet-class>
@@ -74,6 +82,7 @@
     <servlet-name>adminpaperview</servlet-name>
     <url-pattern>/servlet/adminpaperview</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>editor</servlet-name>
     <servlet-class>controller.Editor</servlet-class>
@@ -82,6 +91,7 @@
     <servlet-name>editor</servlet-name>
     <url-pattern>/servlet/editor</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>create</servlet-name>
     <servlet-class>controller.CreatePaperServlet</servlet-class>

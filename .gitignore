@@ -1,0 +1,4 @@
+/**/*.class
+/lib/
+/out/
+/WebContent/WEB-INF/classes/ 
